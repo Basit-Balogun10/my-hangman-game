@@ -914,7 +914,7 @@ while not exit_game:
 
                                     word = input('%s, Please enter your word:  ' % Players[1]).upper()
                                     word_description = input("%s, Give the word description(OPTIONAL):  " % Players[1])
-                                    system('clear')
+                                    system('cls')
                                     # FUNCTION 5 STARTS
                                     word_list = list(word)
                                     gap = ('_' * len(word))
